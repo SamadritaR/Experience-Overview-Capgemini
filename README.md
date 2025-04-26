@@ -1,5 +1,5 @@
 # Experience-Overview---Capgemini
-#  Capgemini Experience: DevOps Engineering | AI/ML Infrastructure | Scalable Systems
+#  Capgemini Experience: Senior Analyst | DevOps Engineer | AI/ML Infrastructure | Scalable Systems
 
 Between September 2021 and June 2024, I worked as a Senior Analyst at Capgemini Technology Services. My role blended DevOps automation, machine learning integration, and large-scale system optimization for one of our flagship clients: Mercedes-Benz.
 
@@ -75,6 +75,58 @@ There were too many siloed dashboards — we needed a unified, real-time view of
 📉 Reduced root cause analysis time by 70%, improved alerting coverage across distributed systems.
 
 ---
+##  Container Monitoring & System Observability (cAdvisor + Node Exporter + ELK)
+
+**Context:**  
+We were running containerized applications across multiple VMs, but didn’t have a clean, unified view into CPU/memory usage, disk I/O, or container-level resource bottlenecks.  
+Our team needed a way to monitor container health, performance trends, and flag spikes **before** they became service issues.
+
+---
+
+### 🛠 How I Did It
+
+1. **Setup cAdvisor on each container host**
+   - Used Docker to deploy cAdvisor containers across all VM instances.
+   - Exposed metrics at port `:8080` and mounted Docker socket for access to live container stats.
+   - Metrics included: CPU usage, memory limit vs consumption, I/O stats, and container uptime.
+
+2. **Integrated with Prometheus**
+   - Added `cAdvisor` as a scrape target in Prometheus configuration.
+   - Defined scrape intervals based on container volatility and load conditions.
+   - Used `prometheus.yml` config to group container metrics by VM region and environment tag (e.g., staging, prod).
+
+3. **Visualized in Grafana**
+   - Created Grafana dashboards to monitor:
+     - Top resource-consuming containers
+     - CPU throttling
+     - Memory spikes vs limits
+     - Container restart trends
+   - Added annotations from deployment logs to correlate code pushes with performance issues.
+
+4. **Extended logging with ELK Stack**
+   - Used **Logstash** to collect container logs and push them to **Elasticsearch**.
+   - Set up dashboards in **Kibana** for full-text search and filtering by container ID, image, or log level.
+   - Combined this with system logs to give full observability across container + VM.
+
+5. **Used Node Exporter for host-level metrics**
+   - Monitored host metrics (CPU, disk I/O, swap, file descriptors) via Node Exporter.
+   - Overlaid these on Grafana dashboards to correlate system-level and container-level behavior.
+
+---
+
+### 🔄 Outcome
+
+✅ Enabled live observability across 100+ containers  
+✅ Improved debugging efficiency during on-call rotations by **>60%**  
+✅ Helped DevOps proactively manage workloads and spot memory leaks or crash loops early  
+✅ Supported transition to GitOps by making container health part of the CI/CD health checks
+
+---
+
+📦 Tools Used:
+- `cAdvisor` for per-container resource monitoring  
+- `Prometheus` + `Node Exporter` for system metrics  
+- `Grafana` for visual dashboards  
 
 ## 5. Data Engineering & Log Processing (Hadoop + AWS S3 + Hive + SQL)
 
@@ -107,6 +159,13 @@ PMs wanted visibility into sprint health and backlog severity, but data was scat
 Reduced backlog review time and helped product managers reduce sprint overruns by 25%.
 
 ---
+
+Alongside these , I have also :
+
+- Simplified Jira Workflows
+- Craeted Project Csutomizations
+- Worked on Numerous Docker Compose Files
+- Worked on various Infrastructure enhancement tasks 
 
 
 
