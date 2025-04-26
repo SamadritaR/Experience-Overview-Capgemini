@@ -72,7 +72,7 @@ There were too many siloed dashboards — we needed a unified, real-time view of
 - Used **Portainer** to manage containers visually during rapid debugging and testing.
 
 **Result:**  
-📉 Reduced root cause analysis time by 70%, improved alerting coverage across distributed systems.
+Reduced root cause analysis time by 70%, improved alerting coverage across distributed systems.
 
 ---
 ##  Container Monitoring & System Observability (cAdvisor + Node Exporter + ELK)
@@ -116,10 +116,10 @@ Our team needed a way to monitor container health, performance trends, and flag 
 
 ### 🔄 Outcome
 
-✅ Enabled live observability across 100+ containers  
-✅ Improved debugging efficiency during on-call rotations by **>60%**  
-✅ Helped DevOps proactively manage workloads and spot memory leaks or crash loops early  
-✅ Supported transition to GitOps by making container health part of the CI/CD health checks
+- Enabled live observability across 100+ containers  
+- Improved debugging efficiency during on-call rotations by **>60%**  
+-  Helped DevOps proactively manage workloads and spot memory leaks or crash loops early  
+-  Supported transition to GitOps by making container health part of the CI/CD health checks
 
 ---
 
