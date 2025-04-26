@@ -170,12 +170,5 @@ Alongside these , I have also :
 
 
 ---
-
-## 💬 Final Reflection
-
-This wasn’t just a job — it was a training ground. I didn’t just work with technologies — I learned how to scale systems, automate decisions, and build resilient pipelines.  
-Every solution I worked on started with a real pain point. My job was to **make it easier, smarter, and faster** — with code, data, and design thinking.
-
----
  Connect: [LinkedIn](https://www.linkedin.com/in/samadrita-roy-chowdhury)  
 
