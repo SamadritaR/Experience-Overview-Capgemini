@@ -83,7 +83,7 @@ Our team needed a way to monitor container health, performance trends, and flag 
 
 ---
 
-### 🛠 How I Did It
+###  How I Did It
 
 1. **Setup cAdvisor on each container host**
    - Used Docker to deploy cAdvisor containers across all VM instances.
@@ -114,7 +114,7 @@ Our team needed a way to monitor container health, performance trends, and flag 
 
 ---
 
-### 🔄 Outcome
+###  Outcome
 
 - Enabled live observability across 100+ containers  
 - Improved debugging efficiency during on-call rotations by **>60%**  
@@ -123,7 +123,7 @@ Our team needed a way to monitor container health, performance trends, and flag 
 
 ---
 
-📦 Tools Used:
+Tools Used:
 - `cAdvisor` for per-container resource monitoring  
 - `Prometheus` + `Node Exporter` for system metrics  
 - `Grafana` for visual dashboards  
