@@ -163,7 +163,7 @@ Reduced backlog review time and helped product managers reduce sprint overruns b
 Alongside these , I have also :
 
 - Simplified Jira Workflows
-- Craeted Project Csutomizations
+- Created Project Customizations
 - Worked on Numerous Docker Compose Files
 - Worked on various Infrastructure enhancement tasks 
 
