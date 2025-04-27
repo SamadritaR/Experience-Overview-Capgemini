@@ -1,4 +1,4 @@
-# Experience Overview-Capgemini
+# Experience Overview : Capgemini
 #  Capgemini Experience: Senior Analyst | DevOps Engineer 
 
 Between September 2021 and June 2024, I worked as a Senior Analyst at Capgemini Technology Services. My role blended DevOps automation, machine learning integration, and large-scale system optimization for one of our flagship clients: Mercedes-Benz.
