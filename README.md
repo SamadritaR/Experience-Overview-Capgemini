@@ -170,5 +170,5 @@ Alongside these , I have also :
 
 
 ---
- Connect: [LinkedIn](https://www.linkedin.com/in/samadrita-roy-chowdhury)  
-
+Connect with me on [LinkedIn](https://www.linkedin.com/in/samadrita-roy-chowdhury)  
+Back to Main Portfolio: [GitHub Profile](https://github.com/SamadritaR)
