@@ -11,8 +11,6 @@ My role combined **DevOps automation**, **machine learning integration**, and **
 This page covers what I actually shipped—problems solved, how I built the solutions, the tools I used—and the measurable outcomes.
 
 ---
-
----
 # Jira (Atlassian)
 **Workflow Design, Automation & Sprint Analytics**
 
