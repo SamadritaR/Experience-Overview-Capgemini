@@ -10,7 +10,7 @@ My role blended DevOps automation, machine learning integration, and large-scale
 This page walks through what I actually did — how I built things, the problems I solved, and the tools I used.
 
 ---
-#Jira(Atlassian) 
+# Jira(Atlassian) 
 (Workflow Design, Automation & Sprint Analytics)
 
 -Workflow ownership: Simplified issue types, statuses, and transitions; standardized story/bug templates and acceptance criteria to reduce thrash and clarify handoffs.
