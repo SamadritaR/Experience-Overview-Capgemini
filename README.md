@@ -21,7 +21,7 @@ This page covers what I actually shipped—problems solved, how I built the solu
 - **Backlog & documentation:** Groomed epics into right-sized stories, phased features across sprints, and documented process steps in Confluence using a **modular/compartmentalized** style; communicated changes to stakeholders.
 - **Impact:** Reduced sprint overruns and improved delivery predictability across **3 teams (120+ engineers & executives)**.
 
-#Mercedes-Benz Global Ordering Platform
+# Mercedes-Benz Global Ordering Platform
 ##  1. Infrastructure Automation (Groovy + GitLab CI/CD + Cron)
 
 **Context:**  
