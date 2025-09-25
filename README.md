@@ -1,5 +1,5 @@
 # Experience Overview : Capgemini
-#  Capgemini Experience: Senior Analyst | DevOps Engineer (Senior Product Analyst)
+#  Capgemini Experience: Senior Analyst | DevOps Engineer 
 
 Between September 2021 and June 2024, I worked as a **Senior Analyst** at Capgemini Technology Services across two major workstreams:
 
