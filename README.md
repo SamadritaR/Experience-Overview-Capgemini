@@ -13,7 +13,7 @@ This page covers what I actually shipped—problems solved, how I built the solu
 ---
 
 ---
-## Jira (Atlassian)
+# Jira (Atlassian)
 **Workflow Design, Automation & Sprint Analytics**
 
 - **Workflow ownership:** Consolidatedand designed new workflows and reduced statuses **16 → 7**, simplifying ticket transitions. Standardized story/bug templates and **acceptance criteria** to cut thrash and clarify handoffs.
