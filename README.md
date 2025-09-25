@@ -1,22 +1,25 @@
 # Experience Overview : Capgemini
 #  Capgemini Experience: Senior Analyst | DevOps Engineer (Senior Product Analyst)
 
-Between September 2021 and June 2024, I worked as a Senior Analyst at Capgemini Technology Services across two major workstreams:
+Between September 2021 and June 2024, I worked as a **Senior Analyst** at Capgemini Technology Services across two major workstreams:
 
-Jira-Atlassian — workflow design, automation, and sprint analytics for a large multi-team program, and
-Mercedes-Benz Global Ordering Platform — reliability & platform operations with ML-assisted detection and infrastructure automation.
-My role blended DevOps automation, machine learning integration, and large-scale system optimization for one of our flagship clients: Mercedes-Benz alongside business analysis, data analysis, and product execution for Jira-Atlassian.
+- **Jira (Atlassian):** Workflow design, automation, and sprint analytics for a large multi-team program.
+- **Mercedes-Benz Global Ordering Platform:** Reliability & platform operations with ML-assisted detection and infrastructure automation.
 
-This page walks through what I actually did — how I built things, the problems I solved, and the tools I used.
+My role combined **DevOps automation**, **machine learning integration**, and **large-scale system optimization** for Mercedes-Benz, alongside **business analysis**, **data analysis**, and **product execution** on the Jira stack.
+
+This page covers what I actually shipped—problems solved, how I built the solutions, the tools I used—and the measurable outcomes.
 
 ---
-# Jira(Atlassian) 
-(Workflow Design, Automation & Sprint Analytics)
 
--Workflow ownership: Simplified issue types, statuses, and transitions; standardized story/bug templates and acceptance criteria to reduce thrash and clarify handoffs.
--Automation & integrations: Performed integration between Jira ↔ Confluence AND GitLab and autmated pipelines at GitLab for triage, SLAs, release notes publishing, and routine updates.
--Groomed epics into stories, phased features over multiple sprints, documented process steps in Confluence thoroughly and introduce compartmentalized documention style, and communicated changes to stakeholders.
-Impact: Reduced sprint overruns and improved delivery predictability across three teams consisting 120+ enginees and execs.
+---
+## Jira (Atlassian)
+**Workflow Design, Automation & Sprint Analytics**
+
+- **Workflow ownership:** Consolidatedand designed new workflows and reduced statuses **16 → 7**, simplifying ticket transitions. Standardized story/bug templates and **acceptance criteria** to cut thrash and clarify handoffs.
+- **Automation & integrations:** Connected **Jira ↔ Confluence ↔ GitLab** and built GitLab CI automations for triage, SLA timers, release-note publishing, and routine updates.
+- **Backlog & documentation:** Groomed epics into right-sized stories, phased features across sprints, and documented process steps in Confluence using a **modular/compartmentalized** style; communicated changes to stakeholders.
+- **Impact:** Reduced sprint overruns and improved delivery predictability across **3 teams (120+ engineers & executives)**.
 
 #Mercedes-Benz Global Ordering Platform
 ##  1. Infrastructure Automation (Groovy + GitLab CI/CD + Cron)
