@@ -11,7 +11,7 @@ My role combined **DevOps automation**, **machine learning integration**, and **
 This page covers what I actually shipped—problems solved, how I built the solutions, the tools I used—and the measurable outcomes.
 
 ---
-# Jira (Atlassian) [December 2021 - November 2022]
+## Jira (Atlassian) [December 2021 - November 2022]
 **Workflow Design, Automation & Sprint Analytics**
 
 - **Workflow ownership:** Consolidatedand designed new workflows and reduced statuses **16 → 7**, simplifying ticket transitions. Standardized story/bug templates and **acceptance criteria** to cut thrash and clarify handoffs.
@@ -19,7 +19,8 @@ This page covers what I actually shipped—problems solved, how I built the solu
 - **Backlog & documentation:** Groomed epics into right-sized stories, phased features across sprints, and documented process steps in Confluence using a **modular/compartmentalized** style; communicated changes to stakeholders.
 - **Impact:** Reduced sprint overruns and improved delivery predictability across **3 teams (120+ engineers & executives)**.
 
-# Mercedes-Benz Global Ordering Platform [December 2022 - June 2024]
+## Mercedes-Benz Global Ordering Platform [December 2022 - June 2024]
+
 ##  1. Infrastructure Automation (Groovy + GitLab CI/CD + Cron)
 
 **Context:**  
