@@ -35,10 +35,24 @@ Manual weekly reboots for VMs (both Linux and Windows) were disrupting workflows
 
 **Result:**  
  Cut manual overhead by 85% and reduced missed reboots across environments.
+---
+## 2. VM Configuration & Platform Support for Global Ordering (Ansible + Docker)
+
+**Context:**  
+The Global Ordering (GO) platform relied on a large fleet of virtual machines supporting critical services. Inconsistent VM configuration and environment-specific setup issues were impacting platform stability and increasing operational overhead during deployments and incident response.
+
+**How I did it:**  
+- Used **Ansible** to standardize configuration across GO platform virtual machines, including service initialization, dependency management, environment variables, and access controls.  
+- Maintained **Ansible playbooks** to support repeatable VM setup during platform updates, node replacements, and recovery scenarios, ensuring parity between production and non-production environments.  
+- Supported **Docker-based services** running on GO platform VMs by validating container runtime configuration, host-level dependencies, and resource settings required for stable operation.  
+- Worked closely with GO platform application teams to troubleshoot VM- and container-related issues, isolating failures caused by configuration drift, dependency mismatches, or host-level constraints.
+
+**Result:**  
+Improved configuration consistency across GO platform VMs, reduced environment-specific issues during deployments and recovery events, and increased overall platform stability for customer-facing services.
 
 ---
 
-##  2. Predictive Resource Management (EDA + XGBoost + TensorFlow)
+##  3. Predictive Resource Management (EDA + XGBoost + TensorFlow)
 
 **Context:**  
 Our team was facing unpredictable spikes in CPU/memory/disk usage. I built a forecasting system to help autoscale the infrastructure **before** performance bottlenecks hit.
@@ -56,7 +70,7 @@ Improved auto-scaling response time by 35% and reduced alert fatigue for the inf
 
 ---
 
-##  3. Real-Time Anomaly Detection (PyTorch + DBSCAN + KMeans)
+##  4. Real-Time Anomaly Detection (PyTorch + DBSCAN + KMeans)
 
 **Context:**  
 During VM domain migrations (Windows/Linux), unexpected errors would disrupt services. There was no proactive signal for these failures.
@@ -73,7 +87,7 @@ During VM domain migrations (Windows/Linux), unexpected errors would disrupt ser
 
 ---
 
-## 4. Monitoring & Observability Stack (Docker Compose + Prometheus + Grafana + ELK)
+## 5. Monitoring & Observability Stack (Docker Compose + Prometheus + Grafana + ELK)
 
 **Context:**  
 There were too many siloed dashboards — we needed a unified, real-time view of system health, migration logs, and application latency.
@@ -89,7 +103,7 @@ There were too many siloed dashboards — we needed a unified, real-time view of
 Reduced root cause analysis time by 70%, improved alerting coverage across distributed systems.
 
 ---
-##  Container Monitoring & System Observability (cAdvisor + Node Exporter + ELK)
+## 6. Container Monitoring & System Observability (cAdvisor + Node Exporter + ELK)
 
 **Context:**  
 We were running containerized applications across multiple VMs, but didn’t have a clean, unified view into CPU/memory usage, disk I/O, or container-level resource bottlenecks.  
@@ -142,7 +156,7 @@ Tools Used:
 - `Prometheus` + `Node Exporter` for system metrics  
 - `Grafana` for visual dashboards  
 
-## 5. Data Engineering & Log Processing (Hadoop + AWS S3 + Hive + SQL)
+## 7. Data Engineering & Log Processing (Hadoop + AWS S3 + Hive + SQL)
 
 **Context:**  
 We had terabytes of logs across VM environments — impossible to process with standard tools. I helped build a scalable pipeline for log analytics.
@@ -158,7 +172,7 @@ We had terabytes of logs across VM environments — impossible to process with s
 
 ---
 
-##  6. Sprint Analytics + Jira Automation (SQL + Power BI + API Scripting)
+##  8. Sprint Analytics + Jira Automation (SQL + Power BI + API Scripting)
 
 **Context:**  
 PMs wanted visibility into sprint health and backlog severity, but data was scattered across Jira, GitHub, and Slack.
