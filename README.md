@@ -35,7 +35,9 @@ Manual weekly reboots for VMs (both Linux and Windows) were disrupting workflows
 
 **Result:**  
  Cut manual overhead by 85% and reduced missed reboots across environments.
+ 
 ---
+
 ## 2. VM Configuration & Platform Support for Global Ordering (Ansible + Docker)
 
 **Context:**  
