@@ -15,7 +15,7 @@ This page covers what I actually shipped—problems solved, how I built the solu
 **Workflow Design, Automation & Sprint Analytics**
 
 - **Workflow ownership:** Consolidatedand designed new workflows and reduced statuses **16 → 7**, simplifying ticket transitions. Standardized story/bug templates and **acceptance criteria** to cut thrash and clarify handoffs.
-- **Automation & integrations:** Connected **Jira ↔ Confluence ↔ GitLab** and built GitLab CI automations for triage, SLA timers, release-note publishing, and routine updates.
+- **Automation & integrations:** Implemented deep Jira–Confluence–GitLab integrations to automate ticket updates from commits and merge requests, enable release-note publishing, enforce SLA tracking, and improve cross-tool visibility. Configured and optimized Jira plugins for roadmap visualization, automation rules, dependency tracking, and custom reporting dashboards.
 - **Backlog & documentation:** Groomed epics into right-sized stories, phased features across sprints, and documented process steps in Confluence using a **modular/compartmentalized** style; communicated changes to stakeholders.
 - **Impact:** Reduced sprint overruns and improved delivery predictability across **3 teams (120+ engineers & executives)**.
 
